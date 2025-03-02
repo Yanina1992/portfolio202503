@@ -14,7 +14,7 @@
 
 @keyframes cursor {
   0% {
-    border-color: #7f00ff;
+    border-color: #005f73;
   }
   50% {
     border-color: transparent;
@@ -40,7 +40,7 @@ h1{
 // Gradient titles
 .text,
 h3 {
-  background: linear-gradient(to right, #7f00ff, #e100ff);
+  background: linear-gradient(to right, #005f73, #008CBA);
   background-clip: text;
   color: transparent;
 }
@@ -108,4 +108,16 @@ h3 {
   .btn {
     width: auto;
   }
+}
+
+
+//
+.div-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img{
+  max-width: 300px;
 }

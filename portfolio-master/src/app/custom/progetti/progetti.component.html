@@ -1,5 +1,5 @@
 <div class="container my-5">
-  <h2>Progetti</h2>
+  <h2>{{ "projects" | translate }}</h2>
   <div class="row row-cols-1 row-cols-md-2 g-4">
     <!-- CAPSTONE CARD-------------------------------------------------------------->
     <div class="col">
@@ -79,15 +79,13 @@
           <h5 class="card-title">Caspstone project</h5>
           <div class="card-text">
             <p>
-              Portale scolastico realizzato in ASP.NET come progetto conclusivo
-              del percorso in Epicode, che permette la gestione delle domande
-              d'iscrizione, delle classi e dei pagamenti di una scuola.
+              {{ "capstone" | translate }}
             </p>
-            <div class="d-flex justify-content-evenly">
-              <a href="https://www.youtube.com/watch?v=i0iiDMcOYsQ">Video</a>
+            <!--<div class="d-flex justify-content-evenly">
+             <a href="https://www.youtube.com/watch?v=i0iiDMcOYsQ">Video</a>
               <a href="http://agueroyanina-001-site1.btempurl.com/">Sito</a>
             </div>
-            <br />
+            <br />-->
             <div class="text-center">
               <a
                 class="btn"
@@ -105,7 +103,7 @@
               aria-expanded="false"
               aria-controls="collapseCapstone"
             >
-              Tecnologie utilizzate
+              {{ "technologies" | translate }}
             </button>
             <div id="collapseCapstone" class="accordion-collapse collapse">
               HTML - CSS - Bootstrap - .NET - C# - MVC - Entity Framework -
@@ -191,13 +189,10 @@
         </div>
         <!-- fine carousel -->
         <div class="card-body c-b">
-          <h5 class="card-title">In Forno</h5>
+          <h5 class="card-title">E-commerce</h5>
           <div class="card-text">
             <p>
-              E-commerce realizzato in ASP.NET per la gestione degli ordini
-              online di una pizzeria. L'applicazione permette di effettuare
-              degli ordini lato user, e di gestire gli ordini ricevuti, le pizze
-              in vendita e gli incassi giornalieri lato admin.
+              {{ "inForno" | translate }}
             </p>
             <div class="text-center">
               <a class="btn" href="https://github.com/Yanina1992/INFORNO-EF"
@@ -214,7 +209,7 @@
               aria-expanded="false"
               aria-controls="collapseCapstone"
             >
-              Tecnologie utilizzate
+              {{ "technologies" | translate }}
             </button>
 
             <div id="collapseInforno" class="accordion-collapse collapse">
@@ -236,10 +231,9 @@
           alt="clinica-vet"
         />
         <div class="card-body">
-          <h5 class="card-title">Clinica veterinaria</h5>
+          <h5 class="card-title">{{ "vetClinicTitle" | translate }}</h5>
           <p class="card-text">
-            Progetto di gruppo realizzato in ASP.NET per la gestione di una
-            clinica veterinaria.
+            {{ "vetClinic" | translate }}
           </p>
           <div class="text-center">
             <a
@@ -258,7 +252,7 @@
             aria-expanded="false"
             aria-controls="collapseVet"
           >
-            Tecnologie utilizzate
+            {{ "technologies" | translate }}
           </button>
           <div id="collapseVet" class="accordion-collapse collapse">
             HTML - CSS - Bootstrap - .NET - C# - MVC - Entity Framework -
@@ -279,8 +273,7 @@
         <div class="card-body">
           <h5 class="card-title">BiblioTu</h5>
           <p class="card-text">
-            Progetto di gruppo realizzato in ASP.NET per la gestione di una
-            libreria online.
+            {{ "biblioTu" | translate }}
           </p>
           <div class="text-center">
             <a
@@ -299,7 +292,7 @@
             aria-expanded="false"
             aria-controls="collapseBib"
           >
-            Tecnologie utilizzate
+            {{ "technologies" | translate }}
           </button>
           <div id="collapseBib" class="accordion-collapse collapse">
             HTML - CSS - Bootstrap - .NET - C# - MVC - Entity Framework -

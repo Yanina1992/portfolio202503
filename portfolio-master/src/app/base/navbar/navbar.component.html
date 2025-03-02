@@ -76,6 +76,7 @@
         </g>
       </svg>
     </a>
+
     <button
       class="navbar-toggler"
       type="button"
@@ -87,6 +88,7 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li
@@ -95,19 +97,27 @@
           routerLink=""
           (click)="(onClick)"
         >
-          Mi presento
+          {{ "aboutMeTitle" | translate }}
         </li>
         <li>
-          <a class="nav-link nav-item" routerLink="progetti" (click)="(onClick)"
-            >Progetti</a
+          <a
+            class="nav-link nav-item"
+            routerLink="progetti"
+            (click)="(onClick)"
+            >{{ "projects" | translate }}</a
           >
         </li>
         <li>
-          <a class="nav-link nav-item" href="#footer" (click)="(onClick)"
-            >Contatti</a
-          >
+          <a class="nav-link nav-item" href="#footer" (click)="(onClick)">{{
+            "contacts" | translate
+          }}</a>
         </li>
       </ul>
+
+      <div>
+        <button (click)="useLanguage('en')">en</button>
+        <button (click)="useLanguage('it')">it</button>
+      </div>
     </div>
   </div>
 </nav>

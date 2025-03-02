@@ -39,10 +39,16 @@ h2 {
 .card {
   background-color: rgb(235 232 225 / 27%);
   border: 0;
+
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgba(179, 172, 162, 0.2784313725);
+  }
 }
-.card:hover {
+/*card:hover {
   border: 1px solid #7f00ff;
-}
+}*/
 
 a {
   color: #7f00ff;
@@ -55,7 +61,7 @@ a {
 
 .accordion-button:hover,
 a:hover {
-  color: #e100ff;
+  color: #005f73;
 }
 
 h5 {

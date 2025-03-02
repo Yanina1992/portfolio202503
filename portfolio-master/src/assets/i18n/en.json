@@ -1,0 +1,12 @@
+{
+  "aboutMe": "I have always been multifaceted and curious, perceptive and eager to take on new challenges. Over time, my profile has evolved into a well-rounded personality. My academic and professional background in the humanities has given me the ability to connect the IT world with the needs of the client. I aim to transform the abstract into something tangible, organized, and functional when I write code, but more importantly, even before I start coding.",
+  "aboutMeTitle": "About me",
+  "projects": "Projects",
+  "contacts": "Contacts",
+  "capstone": "School portal developed in ASP.NET as a final project at Epicode, enabling the management of enrollments, classes, and payments.",
+  "inForno": "The application allows users to place orders and enables admins to manage received orders, available pizzas, and daily earnings.",
+  "vetClinic": "Group project developed in ASP.NET for managing a veterinary clinic.",
+  "biblioTu": "Group project developed in ASP.NET for managing an online library.",
+  "technologies": "Technologies",
+  "vetClinicTitle": "Veterinary clinic"
+}
