@@ -1,0 +1,12 @@
+{
+  "aboutMe" : "Da sempre poliedrica e curiosa, perspicace e pronta ad accogliere nuove sfide, il mio profilo si va delineando fino a sfociare, ad oggi, in una personalità a tutto tondo. Il mio background accademico e lavorativo nel mondo delle scienze umanistiche mi ha donato quel tocco che serve a far comunicare il mondo dell'IT con le esigenze del cliente. Intrappolare l'astratto in una forma tangibile, ordinata e funzionale è l'obiettivo che inseguo quando scrivo codice, ma soprattutto, prima di farlo.",
+  "aboutMeTitle": "Su di me",
+  "projects": "Progetti",
+  "contacts": "Contatti",
+  "capstone": "Portale scolastico realizzato in ASP.NET come progetto conclusivo del percorso in Epicode, che permette la gestione delle domande d'iscrizione, delle classi e dei pagamenti di una scuola.",
+  "inForno": "L'applicazione permette di effettuare degli ordini lato user, e di gestire gli ordini ricevuti, le pizze in vendita e gli incassi giornalieri lato admin.",
+  "vetClinic": "Progetto di gruppo realizzato in ASP.NET per la gestione di una clinica veterinaria.",
+  "biblioTu": "Progetto di gruppo realizzato in ASP.NET per la gestione di una libreria online.",
+  "technologies": "Tecnologie utilizzate",
+  "vetClinicTitle": "Clinica veterinaria"
+}

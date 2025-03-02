@@ -1,0 +1,123 @@
+// Typing animation
+.container :first-of-type {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(23), cursor 0.4s step-end 10;
+}
+
+@keyframes cursor {
+  0% {
+    border-color: #005f73;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+h1{
+  font-weight: 700;
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+}
+
+// Gradient titles
+.text,
+h3 {
+  background: linear-gradient(to right, #005f73, #008CBA);
+  background-clip: text;
+  color: transparent;
+}
+
+//About
+@media screen and (min-width: 768px) {
+  #about-on-the-right {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #about-on-the-right {
+    display: flex;
+  }
+}
+
+#about-on-the-left {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #about-on-the-left {
+    display: none !important;
+  }
+  #about-img {
+    border: 0 !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #about-on-the-left {
+    display: flex;
+  }
+  #about-img {
+    border-bottom: solid 100px rgba(179, 172, 162, 0.2784313725);
+    border-left: solid 20px rgba(179, 172, 162, 0.2784313725);
+    border-right: solid 20px rgba(179, 172, 162, 0.2784313725);
+  }
+}
+
+#about-div {
+  flex-direction: column !important;
+}
+
+//  Skills section
+.skills-div {
+  align-items: baseline;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills img {
+  margin: 1em;
+}
+.skills img:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 576px) {
+  .btn {
+    width: auto;
+  }
+}
+
+
+//
+.div-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img{
+  max-width: 300px;
+}

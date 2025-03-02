@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700;900&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  //color: #e100ff !important;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900 !important;
+  color: #b3aca2 !important;
+  background-color: #b3aca247;
+  padding: 1em 0;
+}
+
+p {
+  text-align: justify;
+}
+
+.btn {
+  //background: linear-gradient(to right, #7f00ff, #e100ff);
+  background: #008CBA !important;
+  color: white !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700 !important;
+  width: 30vw;
+  margin: 1em;
+
+
+  //
+
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #005f73 !important;
+  }
+}
+
+.btn:hover {
+  color: white !important;
+  //background: #e100ff !important;
+}
