@@ -1,0 +1,15 @@
+nav{
+  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.nav-link{
+  cursor: pointer;
+}
+
+li:hover{
+  color: #e100ff !important;
+}
+
